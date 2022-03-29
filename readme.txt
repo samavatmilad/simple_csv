@@ -28,7 +28,7 @@ For reading the csv files this line must be work:
 For getting a column of 2d vector that defined this line should be work:
 	std::vector<std::string> b{ col(a, 0) };
 For getting a row of 2d vector that definded this line may be work:
-	std::vector<double> d{ to_double(b) };
+	std::vector<std::string> c{ row(a, 13) };
 
 The problem is when you want to work with digits since your row and column are string vector.
 For solving this issue I made a function that makes life easier than before:
