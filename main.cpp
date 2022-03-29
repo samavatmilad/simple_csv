@@ -7,5 +7,6 @@ int main() {
 	std::vector<std::string> c{ row(a, 13) };
 	std::vector<double> d{ to_double(b) };
 	std::cout << "Everything is ok.\n" << std::endl;
+
 	return 0;
 }
